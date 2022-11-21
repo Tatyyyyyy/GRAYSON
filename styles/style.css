@@ -31,6 +31,7 @@ ul {
 }
 .header__nav-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
 }
 .header__nav-link,
@@ -143,6 +144,8 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: 52px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .commerce__item {
     max-width: 255px;
@@ -232,6 +235,8 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .product__item-box {
@@ -327,10 +332,10 @@ ul {
 }
 
 .footer__content-blocks {
-/*     max-width: 255px;
-    width: 100%; */
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .footer__content-title,
